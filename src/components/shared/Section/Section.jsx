@@ -11,13 +11,14 @@ class Section extends Component {
           <h2>{title}</h2>
           {children}
         </Container>
-      </section> 
+      </section>
     );
   }
 }
 
 Section.propTypes = {
   title: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export default Section;

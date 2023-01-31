@@ -9,7 +9,6 @@ class Notification extends Component {
       <section>
         <Container>
           <h3>{msg}</h3>
-          {children}
         </Container>
       </section> 
     );
