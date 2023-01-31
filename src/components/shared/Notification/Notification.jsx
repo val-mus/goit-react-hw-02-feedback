@@ -4,13 +4,13 @@ import Container from '../Container/Container';
 
 class Notification extends Component {
   render() {
-    const { msg, children } = this.props;
+    const { msg } = this.props;
     return (
       <section>
         <Container>
           <h3>{msg}</h3>
         </Container>
-      </section> 
+      </section>
     );
   }
 }
